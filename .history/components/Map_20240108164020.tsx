@@ -74,12 +74,12 @@ const Map = () => {
             <h1 style={{color: 'black', fontSize: 26, fontWeight: 'bold'}}> Jerry's Map of the Expo and Millennium line stations</h1>
         </div>
         <MapContainer
-            style={{height: "92vh" }}
+            style={{height: "100vh" , marginBottom: "20vh"}}
             center={[49.24966, -123.00934]} zoom={14} scrollWheelZoom={true}
         >
             <TileLayer
             //add the github reposityory in the href later
-                attribution='&copy; <a href="https://github.com/JerryWuOn/A01342310_On_Exercise_1">By Jerry On </a> contributors'
+                attribution='&copy; <a href="">By Jerry On </a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Marker position={[49.2659, -123.0790]} icon={icon} >

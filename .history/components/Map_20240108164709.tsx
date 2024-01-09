@@ -74,7 +74,7 @@ const Map = () => {
             <h1 style={{color: 'black', fontSize: 26, fontWeight: 'bold'}}> Jerry's Map of the Expo and Millennium line stations</h1>
         </div>
         <MapContainer
-            style={{height: "92vh" }}
+            style={{height: "95vh" }}
             center={[49.24966, -123.00934]} zoom={14} scrollWheelZoom={true}
         >
             <TileLayer
